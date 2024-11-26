@@ -2,9 +2,12 @@ package net.galbatronus.floricultura;
 
 import com.mojang.logging.LogUtils;
 import net.galbatronus.floricultura.block.ModBlocks;
+import net.galbatronus.floricultura.init.ModBlockEntities;
 import net.galbatronus.floricultura.item.ModCreativeModTabs;
 import net.galbatronus.floricultura.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -42,9 +45,14 @@ public class floricultura
 
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event)
-    {
+    private void commonSetup(final FMLCommonSetupEvent event) {
+      event.enqueueWork(() -> {
+          ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.KANORA_BLOCK.getId(), ModBlocks.POTTED_KANORA);
+      });
 
+        event.enqueueWork(() -> {
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.CAMPANILLAS_CHINAS_BLOCK.getId(), ModBlocks.POTTED_CAMPANILLAS_CHINAS);
+        });
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
@@ -68,4 +76,18 @@ public class floricultura
 
         }
     }
+
+    @Mod.EventBusSubscriber(modid = floricultura.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+    public static class ModEventBusEvents {
+        @SubscribeEvent
+        public static void onCommonSetup(FMLCommonSetupEvent event) {
+
+            event.enqueueWork(() -> {
+
+            });
+        }
+    }
 }
+
+
+

@@ -1,9 +1,11 @@
 {
-  "credit": "Made with Blockbench",
+  "parent": "block/kanora_block",
   "texture_size": [32, 32],
+  "render_type": "minecraft:cutout",
   "textures": {
     "2": "floricultura:block/kanora_block",
     "particle": "floricultura:block/kanora_block"
+
   },
   "elements": [
     {

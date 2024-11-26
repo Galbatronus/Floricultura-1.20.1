@@ -1,5 +1,6 @@
 package net.galbatronus.floricultura.item;
 
+import net.galbatronus.floricultura.block.ModBlocks;
 import net.galbatronus.floricultura.floricultura;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -19,6 +20,7 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.KANORA.get());
                         output.accept(ModItems.CAMPANILLAS_CHINAS.get());
+                        output.accept(ModBlocks.CAMPANORA_LEAVE.get());
                     })
                     .build());
 

@@ -2,10 +2,8 @@ package net.galbatronus.floricultura;
 
 import com.mojang.logging.LogUtils;
 import net.galbatronus.floricultura.block.ModBlocks;
-import net.galbatronus.floricultura.init.ModBlockEntities;
 import net.galbatronus.floricultura.item.ModCreativeModTabs;
 import net.galbatronus.floricultura.item.ModItems;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;

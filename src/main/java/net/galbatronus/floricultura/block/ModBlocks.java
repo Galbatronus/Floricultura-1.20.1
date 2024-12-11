@@ -1,6 +1,5 @@
 package net.galbatronus.floricultura.block;
 
-import net.galbatronus.floricultura.block.custom.CampanoraLeaveBlock;
 import net.galbatronus.floricultura.floricultura;
 import net.galbatronus.floricultura.item.ModItems;
 
@@ -39,13 +38,9 @@ public class ModBlocks {
             () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.CAMPANILLAS_CHINAS_BLOCK,
                     BlockBehaviour.Properties.copy(Blocks.POTTED_CORNFLOWER).noOcclusion()));
 
-    public static final RegistryObject<Block> CAMPANORA_LEAVE = BLOCKS.register("campanora_leave",
-            () -> new CampanoraLeaveBlock(BlockBehaviour.Properties.of()
-                    .strength(0.2f)
-                    .sound(SoundType.GRASS)
-                    .noOcclusion()
-                    .randomTicks()));
 
+    public static final RegistryObject<Block> CAMPANORA_LEAVE = registerBlock("campanora_leave",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
 
 
     public static class CustomLeavesBlock extends LeavesBlock {

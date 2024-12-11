@@ -17,12 +17,14 @@ public class ModCreativeModTabs {
     public static final RegistryObject<CreativeModeTab> FLORICULTURA_TAB = CREATIVE_MODE_TABS.register("floricultura_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.KANORA.get()))
                     .title(Component.translatable("creativetab.floricultura_tab"))
-                    .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.KANORA.get());
-                        output.accept(ModItems.CAMPANILLAS_CHINAS.get());
-                        output.accept(ModBlocks.CAMPANORA_LEAVE.get());
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.KANORA.get());
+                        pOutput.accept(ModItems.CAMPANILLAS_CHINAS.get());
+
+                        pOutput.accept(ModBlocks.CAMPANORA_LEAVE.get());
                     })
                     .build());
+
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);

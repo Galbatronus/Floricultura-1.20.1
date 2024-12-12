@@ -1,7 +1,12 @@
 {
-  "variants": {
-    "": {
-      "model": "floricultura:models/block/campanora_leave"
-    }
-  }
+  "loader": "forge:obj",
+  "model": "floricultura:block/models/campanora_leave.obj",
+  "mtl": "floricultura:block/models/campanora_leave.mtl",
+  "flip_v": true,
+
+  "textures": {
+    "texture0": "floricultura:block/campanora",
+    "particle": "floricultura:block/campanora"
+ }
 }
+

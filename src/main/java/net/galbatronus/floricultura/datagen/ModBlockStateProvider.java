@@ -9,6 +9,8 @@ import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.function.Function;
+
 public class ModBlockStateProvider extends BlockStateProvider {
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
         super(output, floricultura.MOD_ID, exFileHelper);
@@ -28,6 +30,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 blockTexture(ModBlocks.CAMPANILLAS_CHINAS_BLOCK.get())).renderType("cutout"));
 
     }
+
+
+
 
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

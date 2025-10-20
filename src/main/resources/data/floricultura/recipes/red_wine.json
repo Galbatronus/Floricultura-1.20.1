@@ -1,0 +1,11 @@
+{
+  "type": "floricultura:fermentation",
+  "ingredients": [
+    { "item": "floricultura:wine_bottle" },
+    { "item": "floricultura:purple_grapes_bottle" }
+  ],
+  "output": {
+    "item": "floricultura:red_wine",
+    "count": 1
+  }
+}

@@ -3,23 +3,19 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "floricultura:kanora",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            }
-          ]
+          "name": "floricultura:kanora_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "floricultura:items/kanora"
+  "random_sequence": "floricultura:blocks/kanora_block"
 }

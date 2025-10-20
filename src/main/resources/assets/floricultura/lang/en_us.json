@@ -1,11 +1,61 @@
 {
-  "item.floricultura.kanora": "Kanora",
-  "item.floricultura.campanillas_chinas": "Campanillas Chinas",
-
 
   "block.floricultura.kanora_block": "Kanora",
   "block.floricultura.campanillas_chinas_block": "Campanillas Chinas",
+  "block.floricultura.fresia_amarilla_block": "Fresia Amarilla",
+  "block.floricultura.dalia_amarilla_block": "Dalia Amarilla",
+  "block.floricultura.dalia_blanca_block": "Dalia Blanca",
+  "block.floricultura.dalia_morada_block": "Dalia Morada",
+  "block.floricultura.dalia_naranja_block": "Dalia Naranja",
+  "block.floricultura.dalia_negra_block": "Dalia Negra",
+  "block.floricultura.dalia_roja_block": "Dalia Roja",
+  "block.floricultura.dalia_rosada_block": "Dalia Rosada",
+
   "block.floricultura.campanora_leave": "Arbusto de Campanora",
+
+  "block.floricultura.stake": "Estaca",
+
+  "item.floricultura.samoyedo_spawn_egg": "Samoyedo",
+
+  "item.floricultura.purple_grapes": "Uvas moradas",
+  "item.floricultura.white_grapes": "Uvas blancas",
+  "item.floricultura.pink_grapes": "Uvas rosadas",
+  "item.floricultura.purple_grapes_seeds": "Semillas de uvas moradas",
+  "item.floricultura.white_grapes_seeds": "Semillas de uvas blancas",
+  "item.floricultura.pink_grapes_seeds": "Semillas de uvas rosadas",
+
+  "item.floricultura.wine_bottle": "Botella de vino",
+
+
+  "item.floricultura.purple_grapes_bottle": "Botella de uvas moradas",
+  "item.floricultura.white_grapes_bottle": "Botella de uvas blancas",
+  "item.floricultura.rose_grapes_bottle": "Botella de uvas rosas",
+
+  "item.floricultura.red_wine": "Vino tinto",
+  "item.floricultura.white_wine": "Vino blanco",
+  "item.floricultura.rose_wine": "Vino rosado",
+
+
+  "block.floricultura.wooden_vessel": "Lagar de madera",
+  "block.floricultura.fermentation_barrel": "Barrica de fermentación",
+  "block.floricultura.berry_press": "Prensa de bayas",
+
+
+  "block.floricultura.purple_grape_juice_block": "Jugo de uva morada",
+  "item.floricultura.purple_grape_juice_bucket": "Cubo de jugo de uva morada",
+  "block.floricultura.white_grape_juice_block": "Jugo de uva blanca",
+  "item.floricultura.white_grape_juice_bucket": "Cubo de jugo de uva blanca",
+  "block.floricultura.pink_grape_juice_block": "Jugo de uva rosada",
+  "item.floricultura.pink_grape_juice_bucket": "Cubo de jugo de uva rosada",
+  "block.floricultura.red_wine_block": "Vino tinto",
+  "item.floricultura.red_wine_bucket": "Cubo de Vino tinto",
+  "block.floricultura.white_wine_block": "Vino blanco",
+  "item.floricultura.white_wine_bucket": "Cubo de Vino blanco",
+  "block.floricultura.rose_wine_block": "Vino rosado",
+  "item.floricultura.rose_wine_bucket": "Cubo de Vino rosado",
+
+  "item.floricultura.overloaded_copper": "Cobre sobrecargado",
+
 
 
 

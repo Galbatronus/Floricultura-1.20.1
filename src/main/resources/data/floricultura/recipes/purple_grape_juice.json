@@ -1,0 +1,19 @@
+{
+  "type": "floricultura:pressed",
+
+  "ingredients": [
+    {
+      "item": "floricultura:purple_grapes",
+      "count": 16
+    },
+    {}
+  ],
+
+  "outputFluid": {
+    "fluid": "floricultura:purple_grape_juice_fluid",
+    "amount": 250
+  },
+
+  "processingTime": 80,
+  "energyRequired": 150
+}

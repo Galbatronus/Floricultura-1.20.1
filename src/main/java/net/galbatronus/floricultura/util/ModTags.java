@@ -20,6 +20,11 @@ public class ModTags {
 
     public static class Items {
 
+        public static final TagKey<Item> FERMENTABLE_JUICES = tag("fermentable_juices");
+        public static final TagKey<Item> WINE_INGREDIENTS = tag("wine_ingredients");
+        public static final TagKey<Item> PRESSABLE_BERRIES = tag("pressable_berries");
+
+
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation(floricultura.MOD_ID, name));
         }

@@ -1,0 +1,11 @@
+{
+  "loader": "forge:obj",
+  "model": "floricultura:models/block/campanora_leave.obj",
+  "mtl": "floricultura:models/block/campanora_leave.mtl",
+  "flip_v": true,
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "texture0": "floricultura:textures/block/campanora_leave",
+    "particle": "floricultura:block/campanora_leave"
+  }
+ }

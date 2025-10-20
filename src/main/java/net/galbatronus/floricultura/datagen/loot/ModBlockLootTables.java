@@ -12,11 +12,13 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     public ModBlockLootTables() {
         super(Set.of(), FeatureFlags.REGISTRY.allFlags());
     }
+
+
     @Override
     protected void generate() {
+
         this.dropSelf(ModBlocks.KANORA_BLOCK.get());
         this.add(ModBlocks.POTTED_KANORA.get(), createPotFlowerItemTable(ModBlocks.KANORA_BLOCK.get()));
-
 
     }
 

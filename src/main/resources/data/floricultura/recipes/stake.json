@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    " t ",
+    " o "
+  ],
+  "key": {
+    "t": {
+      "item": "minecraft:stick"
+    },
+    "o": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "count": 4,
+    "item": "floricultura:stake"
+  }
+}

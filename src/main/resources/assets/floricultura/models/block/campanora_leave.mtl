@@ -1,4 +1,2 @@
-# Made in Blockbench 4.11.2
-newmtl m_8e201d7f-ff02-aab3-bcbb-37ed529b3dff
-map_Kd campanora.png
-newmtl none
+newmtl campanora_leave_material
+map_Kd floricultura:block/campanora_leave

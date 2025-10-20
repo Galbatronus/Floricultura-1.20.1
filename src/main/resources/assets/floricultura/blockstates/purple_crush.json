@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "purple_crush_stage=0": { "model": "floricultura:item/many_purple_grapes" },
+    "purple_crush_stage=1": { "model": "floricultura:item/purple_grapes_juices1" },
+    "purple_crush_stage=2": { "model": "floricultura:item/purple_grapes_juices2" }
+  }
+}

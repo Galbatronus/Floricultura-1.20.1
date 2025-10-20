@@ -1,0 +1,49 @@
+{
+  "texture_size": [16, 16],
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "2": "floricultura:block/many_white_grapes",
+    "particle": "floricultura:block/many_white_grapes"
+  },
+  "elements": [
+    {
+      "from": [2, 3, 2],
+      "to": [14, 3, 14],
+      "rotation": {"angle": 0, "axis": "y", "origin": [2, 3, 1]},
+      "faces": {
+        "north": {"uv": [0, 0, 12, 0], "texture": "#2"},
+        "east": {"uv": [0, 0, 12, 0], "texture": "#2"},
+        "south": {"uv": [0, 0, 12, 0], "texture": "#2"},
+        "west": {"uv": [0, 0, 12, 0], "texture": "#2"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+        "down": {"uv": [0, 0, 12, 12], "texture": "#2"}
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [0, 2, 0],
+      "scale": [0.3, 0.3, 0.3]
+    },
+    "thirdperson_lefthand": {
+      "translation": [0, 2, 0],
+      "scale": [0.3, 0.3, 0.3]
+    },
+    "firstperson_righthand": {
+      "scale": [0.7, 0.7, 0.7]
+    },
+    "firstperson_lefthand": {
+      "scale": [0.7, 0.7, 0.7]
+    },
+    "ground": {
+      "translation": [0, 1, 0],
+      "scale": [0.3, 0.3, 0.3]
+    },
+    "gui": {
+      "scale": [0.7, 0.7, 0.7]
+    },
+    "fixed": {
+      "scale": [0.7, 0.7, 0.7]
+    }
+  }
+}

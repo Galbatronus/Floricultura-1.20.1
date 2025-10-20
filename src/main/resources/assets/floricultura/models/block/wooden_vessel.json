@@ -1,0 +1,108 @@
+{
+  "texture_size": [64, 64],
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "1": "floricultura:block/wooden_vessel",
+    "particle": "floricultura:block/wooden_vessel"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 8, 2],
+      "faces": {
+        "north": {"uv": [3, 0, 7, 2], "texture": "#1"},
+        "east": {"uv": [7.5, 4, 8, 6], "texture": "#1"},
+        "south": {"uv": [3, 2, 7, 4], "texture": "#1"},
+        "west": {"uv": [7.5, 4, 8, 6], "texture": "#1"},
+        "up": {"uv": [7, 4.5, 3, 4], "texture": "#1"},
+        "down": {"uv": [7, 4, 3, 4.5], "texture": "#1"}
+      }
+    },
+    {
+      "from": [0, 0, 14],
+      "to": [16, 8, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 14]},
+      "faces": {
+        "north": {"uv": [3, 2, 7, 4], "texture": "#1"},
+        "east": {"uv": [7.5, 4, 8, 6], "texture": "#1"},
+        "south": {"uv": [3, 0, 7, 2], "texture": "#1"},
+        "west": {"uv": [7.5, 4, 8, 6], "texture": "#1"},
+        "up": {"uv": [7, 4.5, 3, 4], "texture": "#1"},
+        "down": {"uv": [7, 4, 3, 4.5], "texture": "#1"}
+      }
+    },
+    {
+      "from": [0, 0, 2],
+      "to": [2, 8, 14],
+      "rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 2]},
+      "faces": {
+        "north": {"uv": [7, 8.5, 7.5, 10.5], "texture": "#1"},
+        "east": {"uv": [7, 2, 10, 4], "texture": "#1"},
+        "south": {"uv": [7.5, 8.5, 8, 10.5], "texture": "#1"},
+        "west": {"uv": [7, 0, 10, 2], "texture": "#1"},
+        "up": {"uv": [7.5, 7, 7, 4], "texture": "#1"},
+        "down": {"uv": [7.5, 4, 7, 7], "texture": "#1"}
+      }
+    },
+    {
+      "from": [14, 0, 2],
+      "to": [16, 8, 14],
+      "rotation": {"angle": 0, "axis": "y", "origin": [14, 0, 2]},
+      "faces": {
+        "north": {"uv": [8, 8.5, 8.5, 10.5], "texture": "#1"},
+        "east": {"uv": [7, 0, 10, 2], "texture": "#1"},
+        "south": {"uv": [8.5, 8.5, 9, 10.5], "texture": "#1"},
+        "west": {"uv": [7, 2, 10, 4], "texture": "#1"},
+        "up": {"uv": [7.5, 7, 7, 4], "texture": "#1"},
+        "down": {"uv": [7.5, 4, 7, 7], "texture": "#1"}
+      }
+    },
+    {
+      "from": [2, 0, 2],
+      "to": [14, 2, 14],
+      "rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 2]},
+      "faces": {
+        "north": {"uv": [2, 8, 5, 8.5], "texture": "#1"},
+        "east": {"uv": [5, 8, 8, 8.5], "texture": "#1"},
+        "south": {"uv": [8, 8, 11, 8.5], "texture": "#1"},
+        "west": {"uv": [2, 8.5, 5, 9], "texture": "#1"},
+        "up": {"uv": [3, 3, 0, 0], "texture": "#1"},
+        "down": {"uv": [3, 3, 0, 6], "texture": "#1"}
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [0, 2, 0],
+      "scale": [0.3, 0.3, 0.3]
+    },
+    "thirdperson_lefthand": {
+      "translation": [0, 2, 0],
+      "scale": [0.3, 0.3, 0.3]
+    },
+    "firstperson_righthand": {
+      "scale": [0.7, 0.7, 0.7]
+    },
+    "firstperson_lefthand": {
+      "scale": [0.7, 0.7, 0.7]
+    },
+    "ground": {
+      "translation": [0, 1, 0],
+      "scale": [0.3, 0.3, 0.3]
+    },
+    "gui": {
+      "scale": [0.7, 0.7, 0.7]
+    },
+    "fixed": {
+      "scale": [0.7, 0.7, 0.7]
+    }
+  },
+  "groups": [
+    {
+      "name": "Planks",
+      "origin": [8, 8, 8],
+      "color": 0,
+      "children": [0, 1, 2, 3, 4]
+    }
+  ]
+}
